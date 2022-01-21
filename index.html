@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>ToDo list JS</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="title">
+            <h4>To do list JS</h4>
+        </div>
+        
+        <div class="add-new-task-container">
+            <div class="test">
+                <div class="add-new-task">
+                    <input class="new-task-input" id="new-tasks" placeholder="new task">
+                    <button class="add-btn"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="nav-center">
+                <div class="nav-header">
+                 <p class="select-task-done-or-delete">All task</p>
+                  <button class="nav-toggle">
+                    <i class="fas fa-sort-down i"></i>
+                  </button>
+                </div>
+                <ul class="links">
+                  <li>
+                    <button class="all-tasks-btn">All task</button>
+                  </li>
+                  <li>
+                    <button class="completed-tasks-btn">Completed</button>
+                  </li>
+                  <li>
+                    <button class="deleted-tasks-btn">Deleted</button>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+        <div class="to-do-task-all" id="to-do-all-task"></div>
+    </main>
+</body>
+<script defer src="jsicon/all.js"></script>
+<script src="script.js"></script>
+</html>
